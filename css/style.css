@@ -1,0 +1,55 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: wheat;
+    background: black;
+    width: 100%;
+    height: 100%;
+}
+#text {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    padding: 20px;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+#mainContent {
+    margin: 1rem 0;
+    line-height: 1.5;
+}
+footer p {
+    display: flex;
+    text-align: center;
+    padding: auto;
+    bottom: 0;
+    width: 65%;
+    position: fixed;
+    z-index: 1;
+}
+@media (max-width: 686px){
+    body {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        height: 100%;
+    }
+    #nazinha {
+        width: 100px;
+       height: 100px;
+    }
+    footer p {
+     display: none;
+    }
+
+}
